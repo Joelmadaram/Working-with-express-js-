@@ -24,8 +24,8 @@ app.get('/bikes', (req, res) => {
   })
 
   app.get('/search', (req,res) => {
-    console.log('req.query')
-    res.send('Hi!')
+    const {q} = req.query
+    res.send(<h1>`Search Results for: ${q}`</h1>)
 })
 
 
