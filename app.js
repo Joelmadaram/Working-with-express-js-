@@ -15,12 +15,12 @@ app.get('/', (req, res) => {
     res.send('This is the home page')
 })
 
-app.get('/cats', (req, res) => {
-    res.send('meow!')
+app.get('/cars', (req, res) => {
+    res.send('Hey I love cars!')
   })
 
-app.get('/dogs', (req, res) => {
-    res.send('woof!')
+app.get('/bikes', (req, res) => {
+    res.send('lets rideee!')
   })
 
 app.get('*', (req,res) => {
