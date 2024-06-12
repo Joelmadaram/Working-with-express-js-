@@ -23,6 +23,12 @@ app.get('/bikes', (req, res) => {
     res.send('lets rideee!')
   })
 
+  app.get('/search', (req,res) => {
+    console.log('req.query')
+    res.send('Hi!')
+})
+
+
 app.get('*', (req,res) => {
     res.send('yayy!')
 })  
