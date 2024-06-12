@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
     res.send('This is the home page')
 })
 
-app.get('/cats', (req, res) => {
-    res.send('meow!')
+app.get('/cars', (req, res) => {
+    res.send('Hey I love cars!')
   })
 
 app.get('/dogs', (req, res) => {
